@@ -1,0 +1,302 @@
+/* css do body */
+
+body {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* css do header */
+header {
+    width: 1340px;
+    height: 50px;
+    left: 50px;
+    top: 30px;
+}
+
+main{
+width: 1440px;  
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/* css da Nav */
+#imageNav {
+    width: 167px;
+    height: 50px;
+    margin-left: 23px;
+    margin-top: 30px;
+
+}
+
+#menu_Principal {
+    position: absolute;
+    height: 40px;
+    width: 650px;
+    margin-left: 250px;
+    top: 40px;
+    border-radius: 0px;
+    
+}
+
+#menu_Principal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu_Principal li {
+    display: inline;
+}
+
+#menu_Principal ul li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #737373;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#menu_Principal ul li a:hover {
+    height: 40px;
+    width: 90px;
+    left: 300px;
+    background-color: #0A8D0F94;
+    color: #FFF5F5
+}
+
+
+
+/* css do botão */
+button.btn_nav {
+    position: absolute;
+    display: block;
+    height: 40px;
+    width: 120px;
+    margin-left: 1260px;
+    top: 20px;
+    border-radius: 10px;
+    bottom: 95.96%;
+    background: rgba(10, 141, 15, 0.58);
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* banner */
+
+#banner{
+    display: flex;
+}
+
+#h1_banner {
+    position: absolute;
+    height: 143px;
+    width: 624px;
+    margin-left: 50px;
+    top: 292.27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 135px;
+    line-height: 144px;
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+
+}
+
+#texto01_banner {
+    position: absolute;
+    width: 440px;
+    height: 35.82px;
+    margin-left: 50px;
+    top: 435.54px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+
+    color: #BDBDBD;
+}
+
+#texto02_banner {
+    position: absolute;
+    width: 319px;
+    height: 71.63px;
+    margin-left: 50px;
+    top: 496.22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+
+.Img-Robo {
+    position: absolute;
+    width: 113px;
+    height: 112.42px;
+    margin-left: 50px;
+    top: 763.85px;
+
+}
+
+.Img-Banner {
+    position: absolute;
+    width: 712px;
+    height: 746.17px;
+    margin-left: 712px;
+    top: 150px;
+
+}
+
+.Background{
+    width: 1440px;
+    height: 790px;
+    left: 0px;
+    top: 150px;
+}
+
+/* Css do conteudo */
+.TituloPro {
+    font-family: "Inter";
+
+    font-size: 96px;
+    font-weight: 900;
+    color: #4F4F4F;
+    margin-left: 75px;
+}
+
+.Texto-Pro {
+    Font-family: "Inter";
+    width: 1340px;
+    height: 52px;
+    left: 50px;
+    Font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#conteudo {
+    display: flex;
+}
+
+div.Card {
+    background: white;
+    margin: 26px;
+    border: 2px solid;
+    border-color: #0A8D0F;
+    border-radius: 20px;
+    align-items: center;
+    height: 372px;
+    width: 315px;
+    top: 1232px;
+}
+
+img.imagem_card {
+    margin-right: 96px;
+    margin-left: 95px;
+    margin-top: 45px;
+}
+
+h3.titulo {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #828282;
+    margin-top: 40px;
+    margin-right: 44px;
+    margin-left: 44px;
+
+}
+
+#saiba_mais {
+    margin-right: 96px;
+    margin-left: 95px;
+    margin-top: 44px;
+    height: 40px;
+    width: 120px;
+    left: 1173px;
+    top: 1520px;
+    border-radius: 10px;
+    background-color: #0A8D0F;
+    opacity: 58%;
+    border: none;
+    color: white
+}
+
+/* Css do Rodapé */
+footer {
+    width: 1440px;
+    height: 322px;
+    margin-left: 23px;
+    top: 1660px;
+    background: #4F4F4F;
+}
+
+
+.FooterImg {
+    position: relative;
+    width: 167px;
+    height: 53px;
+    left: 50px;
+    top: 50px;
+
+}
+
+.Text1 {
+    position: relative;
+    height: 54px;
+    width: 254px;
+    left: 50px;
+    top: 109px;
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+}
+
+.TextoRedes {
+    position: relative;
+    left: 850px;
+    bottom: 84px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.redesSoci {
+    position: relative;
+    width: 171px;
+    height: 64px;
+    left: 850px;
+    bottom: 70px;
+    display: left;
+    align-items: center;
+}
